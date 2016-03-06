@@ -88,12 +88,29 @@ nav ul ul ul{
     width: 228px;
     background: #bc3183;
     float: right;
-
 }
+
 #lilla{
     height: 245px;
     width: 341px;
     background: #5b0fa1;
+}
+
+#kvinde{
+    position: absolute;
+    left: 66%
+}
+#bro{
+    position: absolute;
+    left: 34%;
+    bottom:auto;
+}
+
+#grå{
+    height: 100px;
+    width: 100%;
+    top: 50%;
+    background: #ebebeb;
 }
 
 /*Nav END*/
