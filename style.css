@@ -91,15 +91,18 @@ nav ul ul ul{
 }
 
 #lilla{
-    height: 245px;
+    height: 295px;
     width: 341px;
     background: #5b0fa1;
+    float: left;
+    Boarder-left: 1px;
 }
 
 #kvinde{
     position: absolute;
     left: 66%
 }
+
 #bro{
     position: absolute;
     left: 34%;
@@ -108,7 +111,7 @@ nav ul ul ul{
 
 #grå{
     height: 100px;
-    width: 100%;
+    width: 100px;
     top: 50%;
     background: #ebebeb;
 }
