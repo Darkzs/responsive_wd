@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 body{
     width: 1024px;
     height: auto;
@@ -5,7 +10,7 @@ body{
 section {
     position: relative;
     width: 1024px;
-    height: 1776px;
+    height: 2000px;
     background-color: #ebebeb;
     padding: 20px;
 }
@@ -115,42 +120,96 @@ nav ul ul ul{
 }
 
 #kvinde{
-    position: absolute;
-    left: 66%
+
+    float:left;
 }
 
 #bro{
-    position: absolute;
+
     left: 34%;
     bottom:auto;
+    float:left;
+}
+.footer {
+    height: 400px;
+    width: 100%;
+    background-color: #ebebeb;
 }
 
+#text_holder {
+    -webkit-column-count: 2;
+    margin: 32px 79px 0 79px;
+}
+.footer h2 {
+    margin: 50px 0 0 79px;
+    color: #088ca5;
+}
 #botsection {
-    margin: 0px 0px 0px 80px;
-    height: 250px;
-    width: 397px;
+    height: 400px;
+    width: 1024px;
 }
 #botsection h3 {
     font-size: 30px;
-    margin: 0 0 0 0;
     margin-top: 40px;
     font-family: sans-serif;
     color: #088ca5;
 }
 #botsection p {
-    width: 397px;
+    width: 1024px;
     margin: 20px 20px 20px 0px;
     font-family: sans-serif;
     font-size: 16px;
     color: #717171;
 
 }
-#boxone {
-    height: 200px;
-    width: 397px;
-    float: left;
-    margin: 0 0 0 0;
+
+#clear {
+    clear: both;
 }
 
+ #textbox {
+     margin: 32px 80px 0px 80px;
+     -webkit-column-count: 2;
+ }
+
+/*OPTIMERET TIL MOBIL VERSION*/
+
+@media all and (max-width: 640px){
+
+body {
+    width: 100%;
+}
+section {
+    width: 100%;
+}
+#Pink {
+    width: 100%;
+}
+#lilla {
+    width: 100%;
+}
+#kvinde {
+    width: 100%;
+}
+
+#kvinde img {
+    width: 100%;
+}
+#bro {
+    width: 100%;
+}
+    #bro img {
+      width: 100%;
+    }
+    #text_display {
+        display: none;
+    }
+
+    #text_holder {
+        -webkit-column-count: 1;
+        margin: 32px 79px 0 79px;
+    }
+
+}
 
 /*Nav END*/
